@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Digital Synth VRA8 5.1.2
 
 2015-05-30 ISGK Instruments  
@@ -11,7 +10,6 @@
 - For Arduino Uno
 
 ## VRA8 Features
-=======
 # Digital Synth VRA8-M 1.1.0
 
 - 2015-08-11 ISGK Instruments
@@ -22,12 +20,10 @@
 - Monophonic Synthesizer (MIDI Sound Module) for Arduino Uno
 
 ## Features
->>>>>>> 1cb4d3cbcac90c02a6f9a96769e86386d09f4bcd
 
 - Sketch for Arduino Uno
 - Serial MIDI In (38400 bps), PWM Audio Out (Pin 6), PWM Rate: 62500 Hz
 - Sampling Rate: 15625 Hz, Bit Depth: 8 bits
-<<<<<<< HEAD
 - Recommending [Hairless MIDI<->Serial Bridge](http://projectgus.github.io/hairless-midiserial/) to connect PC
 - Files
     - "DigitalSynthVRA8.ino" for Arduino Uno
@@ -95,7 +91,6 @@
 
       [Virtual Analog Synthesizer]                                    Date: 2015-05-30       
       Model  Digital Synth VRA8       MIDI Implementation Chart       Version: 5.1.2         
-=======
 - VCF Type (Attenuation Slope): LPF (-12 dB/oct)
 - Recommending [Hairless MIDI<->Serial Bridge](http://projectgus.github.io/hairless-midiserial/) to connect PC
 - Files
@@ -170,7 +165,6 @@
 
       [Monophonic Synthesizer]                                        Date: 2015-08-11       
       Model  Digital Synth VRA8-M     MIDI Implementation Chart       Version: 1.1.0         
->>>>>>> 1cb4d3cbcac90c02a6f9a96769e86386d09f4bcd
     +-------------------------------+---------------+---------------+-----------------------+
     | Function...                   | Transmitted   | Recognized    | Remarks               |
     +-------------------------------+---------------+---------------+-----------------------+
@@ -182,11 +176,8 @@
     |              Altered          | ************* |               |                       |
     +-------------------------------+---------------+---------------+-----------------------+
     | Note                          | x             | 0-127         |                       |
-<<<<<<< HEAD
     | Number       : True Voice     | ************* | 24-96         |                       |
-=======
     | Number       : True Voice     | ************* | 24-84         |                       |
->>>>>>> 1cb4d3cbcac90c02a6f9a96769e86386d09f4bcd
     +-------------------------------+---------------+---------------+-----------------------+
     | Velocity     Note ON          | x             | x             |                       |
     |              Note OFF         | x             | x             |                       |
@@ -196,7 +187,6 @@
     +-------------------------------+---------------+---------------+-----------------------+
     | Pitch Bend                    | x             | x             |                       |
     +-------------------------------+---------------+---------------+-----------------------+
-<<<<<<< HEAD
     | Control                    14 | x             | o             | VCO 1 Waveform        |
     | Change                     15 | x             | o             | VCO 1 Coarse Tune     |
     |                            16 | x             | o             | VCO 2 Waveform        |
@@ -214,7 +204,6 @@
     +-------------------------------+---------------+---------------+-----------------------+
     | Program                       | x             | o 0-4         |                       |
     | Change       : True #         | ************* | 0-4           |                       |
-=======
     | Control                    16 | x             | o             | LFO Rate EG Amt       |
     | Change                     17 | x             | o             | VCO Color LFO Amt     |
     |                            18 | x             | o             | VCO Mix EG Amt        |
@@ -234,7 +223,6 @@
     +-------------------------------+---------------+---------------+-----------------------+
     | Program                       | x             | x             |                       |
     | Change       : True #         | ************* |               |                       |
->>>>>>> 1cb4d3cbcac90c02a6f9a96769e86386d09f4bcd
     +-------------------------------+---------------+---------------+-----------------------+
     | System Exclusive              | x             | x             |                       |
     +-------------------------------+---------------+---------------+-----------------------+
